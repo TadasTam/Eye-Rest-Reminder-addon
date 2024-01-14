@@ -1,0 +1,65 @@
+.buttons:hover
+{
+	
+	background-color: black;
+	color: white;
+	transition-duration: 0.7s;
+}
+
+.buttons
+{
+}
+
+.column
+{
+	float: left;
+}
+
+#c1
+{
+	width: 49%;
+	margin-left: 0%;
+}
+
+#c2
+{
+	width: 49%;
+	margin-left: 2%;
+}
+
+.row:after 
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#reminders
+{
+	list-style-type: none;
+	border-width: 1px; 
+	border-style: solid; 
+	padding-left: 0; 
+	height: 100px; 
+	overflow: hidden; 
+	overflow-y: scroll;
+	background-color: #d5ffdd;
+}
+
+#expRems
+{
+	list-style-type: none;
+	border-width: 1px; 
+	border-style: solid; 
+	border-color: red; 
+	padding-left: 0; 
+	height: 100px; 
+	overflow: hidden; 
+	overflow-y: scroll;
+	background-color: #ffdadb;
+}
+
+.linkd
+{
+	color: black;
+}

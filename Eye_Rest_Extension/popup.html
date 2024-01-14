@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="popup.js"></script>
+</head>
+<body style="min-width:750px;">
+    <div>
+        <b>Add your reminder:</b><br><br>
+        Reminders text:
+        <input type="text" id="reminder" placeholder="Enter your reminder!"><br><br>
+        Reminder time:
+        <input type="datetime-local" id="expireTime"><br><br>
+        <button class="buttons" id="submit">Add your reminder</button>
+        <hr>
+    </div>
+    <div class="row">
+        <div class="column" id="c1">
+            <b>Active reminders:</b>
+            <ol id="reminders"></ol>
+        </div>
+        <div class="column" id="c2">
+            <b>Expired reminders:</b>
+            <ol id="expRems"></ol>
+            <button class="buttons" id="dismiss">Delete all expired reminders</button>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <p>Some valuable <a href="https://www.medicalnewstoday.com/articles/327524" class="linkd">eye rest tips and exercises</a> to practise while on your break!</p>
+        <p>Also check out <a href="https://mlh.io/" class="linkd">Major League Hacking</a> for fun and interesting hackathons</p>
+    </ul>
+    </div>
+</body>
+</html>
